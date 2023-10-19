@@ -6,6 +6,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio | Rafli Yanuar Aldriansyah</title>
@@ -41,7 +44,7 @@
     <section class="jumbotron text-center">
       <img src="img/rafli.jpg" alt="Rafli Yanuar Aldriansyah"  width="300" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Rafli Yanuar Aldriansyah</h1>
-      <p class="lead">Business Development (Marketing) | FullStack Development (Programmer)</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -62,10 +65,10 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
           <p> My name is Rafli Yanuar Aldriansyah, and I was born in 2002. I graduated with a Bachelor's degree in Computer Systems in 2023 from Gunadarma University. I have expertise in both Hardware and Software fields. In the Hardware domain, my focus has been on robotics, computer vision, computer network security, and Internet of Things development. In the software domain, I have skills as a Fullstack Engineer, creating websites using programming languages such as HTML5, CSS, Javascript, PHP, and Python. During my studies, I developed numerous intelligent systems and online websites accessible on the internet. </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
           <p>Having a one-year experience as a Business Development professional in a company has equipped me with the knowledge of company marketing strategies for continuous growth. This includes fostering client collaborations, data collection from daily tasks, maintaining strong relationships with cooperating clients, and digital marketing enhancements. For instance, in SEM, I engage in social media advertising. In SEO, I refine keywords to ensure search engines identify our company's products as the most relevant, resulting in higher search rankings.</p>
         </div>
       </div>
@@ -88,7 +91,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="500">
                 <img src="img/project/1.jpg" class="card-img-top" alt="Project1" />
                 <div class="card-body">
                   <p class="card-text">Membuat Prototype Alat Hand Sanitizer Otomatis berbasis mikrokontroller Arduino Uno, Alat ini dapat mengeluarkan cairan handsanitizer secara otomatis ketika tangan mendekati lubang keluaran dari handsanitizer tanpa harus menekannya.</p>
@@ -96,7 +99,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                 <img src="img/project/2.jpeg" class="card-img-top" alt="Project2" />
                 <div class="card-body">
                   <p class="card-text">Membuat Prototype Alat Monitoring Suhu dan Kelembaban Tanah berbasis Bot Telegram, dengan menggunakan Mikrokontroller ESP8266 alat ini mampu melakukan penyiraman otomatis serta dapat memantau suhu dan kelembaban tanah dalam keadaan optimal atau tidak.</p>
@@ -104,7 +107,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-5">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                 <img src="img/project/3.jpg" class="card-img-top" alt="Project3" />
                 <div class="card-body">
                   <p class="card-text">Membuat website portofolio dengan bahasa pemrograman HTML5, CSS, dan Javascript serta menggunakan Bootstrap5 sebagai komponen untuk mendesaign halaman website. Website ini berisi profil user, karya, dan pengalaman kerja sebelumnya.</p>
@@ -112,7 +115,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                 <img src="img/project/4.jpg" class="card-img-top" alt="Project4" />
                 <div class="card-body">
                   <p class="card-text">Membuat website undangan pernikahan online, menggunakan bahasa pemrograman HTML5, CSS, dan Javascript serta menggunakan fitur Bootstrap5 sebagai komponen untuk mendesaign halaman website. Website ini sudah banyak digunakan selama pandemi Covid-19 melanda dunia, covid memang sangat berpengaruh terhadap perkembangan zaman.</p>
@@ -120,7 +123,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                 <img src="img/project/5.png" class="card-img-top" alt="Project5" />
                 <div class="card-body">
                   <p class="card-text">Membuat website Penjualan Online (E-Commerce) dengan berbasis bahasa pemrograman PHP & MySQL yang dapat melakukan proses CRUD (Create, Read, Update, Delete) dan untuk desain halaman web menggunakan Laravel, Website ini berisi halaman login, halaman logout, product penjualan, profil contact toko online dan profil toko online tersebut yang database nya disimpan pada MySQL.</p>
@@ -131,6 +134,71 @@
         </div>
     </section>
     <!-- Akhir Project -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.jpg" alt="Gambar 5" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/7.jpg" alt="Gambar 7" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.jpg" alt="Gambar 8" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/9.jpg" alt="Gambar 9" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/10.jpg" alt="Gambar 10" class="img-fluid gallery-img"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Gallery -->
 
   <!--Contact-->
 <section id="contact">
@@ -180,7 +248,32 @@
     <p>Created by <a href="https://www.instagram.com/raafliyanuar/" class="text-white fw-bold">Rafli Yanuar Aldriansyah</a></p>
   </footer>
   <!--Akhir Footer-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Business Development (Marketing) | FullStack Development (Programmer)'});
+      gsap.from('.jumbotron img', {duration: 1, rotateY: 360, opacity: 0});
+      gsap.from('.navbar img', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+      gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzRWjWPuZSJxwvDEXSlv0uhI55xuyL6clGly5A7gOh4RNnXaXsGbU8OSdWjqSZHVJ-FhA/exec'
       const form = document.forms['contact-form']
